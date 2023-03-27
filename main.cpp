@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-float a,b,c;
+float a=0,b=0,c=0;
 float triangolo,quadrato,rettangolo,trapezio;
 cin >> a >> b >> c;
 
