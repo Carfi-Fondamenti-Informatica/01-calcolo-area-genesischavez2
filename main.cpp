@@ -2,11 +2,19 @@
 using namespace std;
 
 int main(){
-//Qui vanno definite le variabili
-
+float a,b,c;
+float triangolo,quadrato,rettangolo,trapezio;
 cin >> a >> b >> c;
 
-//Qui va scritto il codice per eseguire i calcoli richiesti
+triangolo = a*b/2;
+quadrato = a*a;
+rettangolo = a*b;
+trapezio = (a+b)*c/2;
 
+cout <<"Area triangolo =" << triangolo;
+cout <<"Area quadrato =" <<  quadrato;
+cout <<"Area rettangolo =" << rettangolo;
+cout <<"Area trapezio =" << trapezio;
+  
 
 }
