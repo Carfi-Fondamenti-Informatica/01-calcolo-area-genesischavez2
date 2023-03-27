@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 float a=0,b=0,c=0;
-float triangolo,quadrato,rettangolo,trapezio;
+float triangolo=0,quadrato=0,rettangolo=0,trapezio=0;
 cin >> a >> b >> c;
 
 triangolo = a*b/2;
@@ -12,9 +12,9 @@ rettangolo = a*b;
 trapezio = (a+b)*c/2;
 
 cout <<"Area triangolo =" << triangolo;
-cout <<"Area quadrato =" <<  quadrato;
-cout <<"Area rettangolo =" << rettangolo;
-cout <<"Area trapezio =" << trapezio;
+cout <<"\nArea quadrato =" <<  quadrato;
+cout <<"\nArea rettangolo =" << rettangolo;
+cout <<"\nArea trapezio =" << trapezio;
   
 
 }
