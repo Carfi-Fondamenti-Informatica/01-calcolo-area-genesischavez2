@@ -11,10 +11,10 @@ quadrato = a*a;
 rettangolo = a*b;
 trapezio = (a+b)*c/2;
 
-cout <<"Area triangolo =" << triangolo;
-cout <<"\nArea quadrato =" <<  quadrato;
-cout <<"\nArea rettangolo =" << rettangolo;
-cout <<"\nArea trapezio =" << trapezio;
+cout << triangolo <<endl;
+cout << quadrato <<endl;
+cout << rettangolo <<endl;
+cout << trapezio <<endl;
   
 
 }
